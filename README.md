@@ -14,4 +14,4 @@
 
 Ниже представляю превью моего сайта для быстрого просмотра:
 
-<a href="https://ibb.co/W0PDKfq"><img src="https://i.ibb.co/ScdQvBW/Take-Me-rebrum192000-github-io.png" alt="Take-Me-rebrum192000-github-io" border="0"></a>
+<a href="https://ibb.co/m4pkhvZ"><img src="https://i.ibb.co/WfCZBD8/Take-Me-rebrum192000-github-io-min.png" alt="Take-Me-rebrum192000-github-io-min" border="0"></a>
