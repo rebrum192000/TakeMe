@@ -1,0 +1,53 @@
+.page--footer{
+	margin-top: 41px;
+	background-color: #f6f6f6;
+	padding: 10px 0;
+}
+.page--footer__flex{
+	display: flex;
+	justify-content: space-between;
+}
+.page--footer__social-list{
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+	padding: 0;
+	width: 150px;
+}
+.page--footer__social-link{
+	text-decoration: none;
+	position: relative;
+}
+.page--footer__social-link::after{
+	position: absolute;
+	content: '';
+	top: -10px;
+	left: -20px;
+	width: 40px;
+	height: 40px;
+}
+.page--footer__dev-link{
+	text-decoration: none;
+	color: #868686;
+	&:hover{
+		color: #3ec6ff;
+	}
+}
+.tw::after{
+	background: url('../img/images/twitter.png') no-repeat;
+}
+.inst::after{
+	background: url('../img/images/instagram.png') no-repeat;
+}
+.fb::after{
+	background: url('../img/images/facebook.png') no-repeat;
+}
+.tw:hover::after{
+	opacity: 0.5;
+}
+.inst:hover::after{
+	opacity: 0.5;
+}
+.fb:hover::after{
+	opacity: 0.5;
+}

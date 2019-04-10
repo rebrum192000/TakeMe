@@ -1,0 +1,27 @@
+.page--main__video{
+	position: relative;
+}
+.page--main__video::before{
+	position: absolute;
+	content: '';
+	top: 0;
+	right: 0;
+	width: 100%;
+	height: 654px;
+	background-size: cover;
+	background: url('../img/images/bg-pic.jpg') no-repeat;
+	z-index: -1;
+}
+.page--main__video-text{
+	margin: 0;
+	font-size: 48px;
+	line-height: 58px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	text-align: center;
+	color: #fff;
+
+}
+.page--main__video-youtube{
+	margin-left: calc(50% - 342px);
+}

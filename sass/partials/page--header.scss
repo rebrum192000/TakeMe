@@ -1,0 +1,27 @@
+.page--header{
+	display: flex;
+	justify-content: space-between;
+	padding: 35px 0;
+}
+
+.page--header__list{
+	margin: 0;
+	padding: 0;
+	width: 800px;
+	display: flex;
+	align-items: center;
+	list-style: none;
+	justify-content: space-between;
+}
+.page--header__link{
+	color: #343434;
+	text-decoration: none;
+	font-size: 18px;
+	line-height: 22px;
+	&:hover{
+		color: rgba(#343434,0.5);
+	}
+	&:active{
+		color: rgba(#ccc,0.5);
+	}
+}

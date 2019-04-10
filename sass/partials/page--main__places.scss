@@ -1,0 +1,72 @@
+.page--main__places{
+	display: flex;
+	justify-content: space-between;
+	padding-top: 75px;
+	position: relative;
+}
+.page--main__places-text,
+.page--main__places-heading{
+	margin: 0;
+	padding: 0;
+}
+.page--main__place{
+	position: relative;
+	width: 371px;
+	color: #fff;
+}
+.page--main__places-image{
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+.page--main__places-text{
+	margin-top: 175px;
+	margin-left: 20px;
+}
+.page--main__places-heading{
+	margin-top: 10px;
+	font-size: 36px;
+	line-height: 44px;
+	margin-left: 20px;
+	margin-bottom: 90px;
+}
+.page--main__places-visits{
+	position: absolute;
+	top: 40px;
+	right: 20px;
+	font-size: 14px;
+}
+.page--main__place::after{
+	position: absolute;
+	content: '';
+	top: 20px;
+	right: 20px;
+	width: 84px;
+	height: 14px;
+	background: url('../img/images/stars.png');
+}
+.page--main__place-button1{
+	position: absolute;
+	top: 193px;
+	right: -50px;
+	width: 13px;
+	height: 27px;
+	border: none;
+	background-color: transparent;
+	background: url('../img/images/arrow_right.png');
+	cursor: pointer;
+}
+.page--main__place-button2{
+	position: absolute;
+	top: 193px;
+	left: -50px;
+	width: 13px;
+	height: 27px;
+	border: none;
+	background-color: transparent;
+	background: url('../img/images/arrow_right.png');
+	transform: rotate(180deg);
+	cursor: pointer;
+}
